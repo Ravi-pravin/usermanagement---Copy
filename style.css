@@ -81,11 +81,25 @@ ul {
         grid-template-columns: 1fr;
     }
 
-    .heading{
-        display: none;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .sno{
-        display: none;
+    .footer p{
+        text-align: center;
+    }
+    .buttonbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
 }

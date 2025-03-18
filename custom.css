@@ -1,102 +1,77 @@
-.usersection {
-    background-color: #ffffff;
-}
-.usersection hr {
-    width: 98%;
-    height: 2px;
-    background-color: #eadede;
-}
+
 .Management{
     box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
+    padding: 2rem;
 }
-.usersection h3 {
-    font-family: var(--ffPrimary);
+.header h3 {
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: var(--ffPrimary);
 }
 
 .excel {
     background-color: #ffffff;
-    padding: 0rem 2rem;
+    padding: 0.5rem 2rem;
     cursor: pointer;
 }
 
 .excel p {
-    padding-top: 1rem;
     color: #626262;
+    padding-top: 1rem;
 }
 
 .newuser {
     background-color: #ffffff;
-    padding: 0rem 2rem;
+    padding: 0.5rem 2rem;
     cursor: pointer;
+}
+.data{
+    color: #626262;
+}
+.newuser p {
+    color: #626262;
+    padding-top: 1rem;
 }
 
 .newuser i {
-    padding: 0.3rem;
+    padding: 0.5rem;
     background-color: #626262;
 }
 
-.newuser p {
-    padding-top: 1rem;
-    color: #626262;
+.proimg {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 2rem;
 }
 
-.statusicon {
-    font-size: 1.2rem;
+.fa-xmark {
+    padding: 0.5rem;
+    background-color: rgb(252, 31, 24);
+    border-radius: 50%;
 }
 
-.usersection h4 {
-    font-family: var(--ffPrimary);
-    color: #626262;
-    font-size: 2rem;
-    font-weight: 500;
-}
-.usersection p {
-    font-family: var(--ffPrimary);
-    color: #626262;
-    font-size: 1.6rem;
-    font-weight: 400;
-}
-
-.Action i {
+.fa-gear{
     font-size: 2.5rem;
-    margin: 2rem;
+}
+.fa-gear,
+.fa-xmark {
+    margin: 1rem;
     cursor: pointer;
 }
 
-.x i {
-    background-color: #d20808;
-    padding: 0.5rem;
-    height: 3rem;
-    width: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer button {
+    color:#626262;
 }
-.userimg {
-    height: 5rem;
-    width: 5rem;
+.footer button:hover {
+    background-color: aqua;
+    color: #ffffff;
 }
 .footer p{
-    font-family: var(--ffPrimary);
-    color: #626262;
     font-size: 1.6rem;
-    font-weight: 400;
+    color: #626262;
+    font-family: var(--ffPrimary);
 }
 .footer p span{
-    font-family: var(--ffPrimary);
-    color: #626262;
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-.footer button{
-    font-family: var(--ffPrimary);
-    color: #626262;
-    font-size: 1.6rem;
-    font-weight: 400;
-}
-.footer button:hover{
-    background-color: #197def;
-    color: #ffffff;
+    color: #2a2828;
 }
