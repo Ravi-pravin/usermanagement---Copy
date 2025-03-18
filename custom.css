@@ -1,0 +1,102 @@
+.usersection {
+    background-color: #ffffff;
+}
+.usersection hr {
+    width: 98%;
+    height: 2px;
+    background-color: #eadede;
+}
+.Management{
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
+}
+.usersection h3 {
+    font-family: var(--ffPrimary);
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.excel {
+    background-color: #ffffff;
+    padding: 0rem 2rem;
+    cursor: pointer;
+}
+
+.excel p {
+    padding-top: 1rem;
+    color: #626262;
+}
+
+.newuser {
+    background-color: #ffffff;
+    padding: 0rem 2rem;
+    cursor: pointer;
+}
+
+.newuser i {
+    padding: 0.3rem;
+    background-color: #626262;
+}
+
+.newuser p {
+    padding-top: 1rem;
+    color: #626262;
+}
+
+.statusicon {
+    font-size: 1.2rem;
+}
+
+.usersection h4 {
+    font-family: var(--ffPrimary);
+    color: #626262;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.usersection p {
+    font-family: var(--ffPrimary);
+    color: #626262;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.Action i {
+    font-size: 2.5rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.x i {
+    background-color: #d20808;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userimg {
+    height: 5rem;
+    width: 5rem;
+}
+.footer p{
+    font-family: var(--ffPrimary);
+    color: #626262;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.footer p span{
+    font-family: var(--ffPrimary);
+    color: #626262;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.footer button{
+    font-family: var(--ffPrimary);
+    color: #626262;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.footer button:hover{
+    background-color: #197def;
+    color: #ffffff;
+}
