@@ -25,6 +25,9 @@
     padding: 0.5rem 2rem;
     cursor: pointer;
 }
+.thead{
+    padding: 5rem;
+}
 .data{
     color: #626262;
 }
